@@ -1,0 +1,61 @@
+/*-----------------------Fonts------------------------------------------*/
+
+@font-face {
+    font-family: "Georama";
+    src: url("./../font/Georama-Black.ttf");
+}
+
+@font-face {
+    font-family: "Georama italic";
+    src: url("./../font/Georama-BlackItalic.ttf");
+}
+
+@font-face {
+    font-family: "Georama light";
+    src: url("./../font/Georama-Light.ttf");
+}
+
+/*-----------------------Colors-----------------------------------------*/
+:root {
+    --gray-color : rgb(236, 236, 236);
+    --dark-gray-color : rgb(72, 72, 72);
+    --black-color : rgb(0, 1, 2);
+    --blue-color : rgb(62, 151, 216);
+}
+
+
+/*-----------------------Generic elements-------------------------------*/
+body {
+    font-family: "Georama light";
+    
+}
+
+div, p, ul, li, span, label, nav {
+    margin: 0;
+    padding: 0;
+}
+
+.title-head {
+    width: 100%;
+    height: 10em;
+    text-align: center;
+    padding-top: 2em;
+}
+
+.title1 {
+    font-weight: bold;
+    font-size: 3rem;
+    margin: 0;
+    padding: 0;
+}
+
+.title2 {
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.title-sample {
+    font-size: 100pt;
+    font-weight: bold;
+}
